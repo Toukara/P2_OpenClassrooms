@@ -1,0 +1,22 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar_item {
+  padding: 0.5rem 0.75rem;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+.navbar_item:hover {
+    color : var(--primary-color)
+}
+
+.navbar_end {
+  justify-content: flex-end;
+  margin-left: auto;
+  margin-top: 25px;
+  margin-right: 32px;
+  font-size: 16px;
+}

@@ -1,0 +1,15 @@
+.form_input {
+  display: inline-flex;
+  flex-direction: row;
+  margin-bottom: 16px;
+}
+
+.filters {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-items: center;
+    margin-bottom: 16px;
+}
+

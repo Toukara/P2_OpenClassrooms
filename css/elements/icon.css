@@ -1,0 +1,47 @@
+/* Global icon */
+.icon {
+  display: flex;
+  margin-left: -5px;
+  background-color: var(--second-color);
+  border-radius: 50%;
+  padding: 9px;
+  width: 20px;
+  height: 20px;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary-color);
+}
+
+.icon:hover {
+  background-color: white;
+}
+/* info icon */
+.icon_info {
+  display: flex;
+  border: solid 2px var(--grey);
+  border-radius: 50%;
+  padding: 9px;
+  width: 5px;
+  height: 5px;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary-color);
+
+  margin-right: 10px;
+}
+
+/* Star */
+.stars{
+  margin-top: 5%;
+}
+.fa-star {
+  font-size: 14px;
+}
+
+.filled {
+  color: var(--primary-color);
+}
+
+.unfilled {
+  color: #d2d2d2;
+}

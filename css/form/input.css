@@ -1,0 +1,16 @@
+.input.field {
+  white-space: nowrap;
+  border: 0;
+  border: solid 1px var(--grey);
+}
+
+.input.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--grey);
+  border-radius: 7px 0 0 7px;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+}

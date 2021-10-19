@@ -1,0 +1,41 @@
+.btn.is-primary {
+    color: white;
+    background-color: var(--primary-color);
+}
+
+.btn.is-primary:hover{
+    color: white;
+    background-color: #1571fa;
+}
+
+
+.btn.is-secondary {
+    background-color: #deebff;
+}
+
+.btn.search{
+    border: none;
+    border-radius: 0 7px 7px 0 ;
+    font-weight: 600;
+}
+
+.btn.filter {
+    display: flex;
+    border: solid 1px var(--grey);
+    background-color: transparent;
+    border-radius: 50px;
+
+    align-items: center;
+    justify-items: center;
+    padding-right: 15px;
+
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.btn.filter:hover {
+    background-color: var(--second-color);
+}
+
+
+
