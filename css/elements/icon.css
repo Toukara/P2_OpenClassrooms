@@ -1,15 +1,15 @@
 /* Global icon */
 .icon {
   display: flex;
-  margin-left: -5px;
-  background-color: var(--second-color);
+  margin-left: -8px;
+  background-color: var(--secondary);
   border-radius: 50%;
-  padding: 9px;
-  width: 20px;
-  height: 20px;
+  padding: 18px;
+  width: 25px;
+  height: 25px;
   align-items: center;
   justify-content: center;
-  color: var(--primary-color);
+  color: var(--primary);
 }
 
 .icon:hover {
@@ -25,7 +25,7 @@
   height: 5px;
   align-items: center;
   justify-content: center;
-  color: var(--primary-color);
+  color: var(--primary);
 
   margin-right: 10px;
 }
@@ -39,7 +39,7 @@
 }
 
 .filled {
-  color: var(--primary-color);
+  color: var(--primary);
 }
 
 .unfilled {

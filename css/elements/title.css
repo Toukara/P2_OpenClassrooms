@@ -1,14 +1,14 @@
 .title {
   color: #363636;
   font-size: 32px;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 1.125;
 }
 
 .subtitle {
   color: #4a4a4a;
   font-size: 1.25rem;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 1.25;
 }
 
@@ -17,7 +17,11 @@
   word-break: break-word;
 }
 
-
 .price {
   font-weight: bold;
+}
+
+.title.footer {
+  margin: 0 16px 16px 16px;
+  font-size: 18px;
 }

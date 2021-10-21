@@ -10,7 +10,7 @@
   background-color: white;
   border-radius: 10px;
   line-height: 20px;
-  box-shadow: 0 0 10px 0px #AAAAAA;
+  box-shadow: 0 0 10px 0px #aaaaaa;
 }
 
 .hotel > .hotelimg {
@@ -31,13 +31,6 @@
 .hotel:hover {
   cursor: pointer;
   transform: scale(1.05);
-  transition: ease 0.4s;
-}
-
-.mostpopulars_title{
-  display: flex;
-  flex-direction: row;
-
 }
 
 .mostpopular {
@@ -48,8 +41,7 @@
   flex-direction: row;
   justify-content: space-between;
   line-height: 18px;
-  box-shadow: 0 0 10px 0px #AAAAAA;
-
+  box-shadow: 0 0 10px 0px #aaaaaa;
 }
 
 .mostpopular > .mostpopular_image {
@@ -79,5 +71,86 @@
 .mostpopular:hover {
   cursor: pointer;
   transform: scale(1.05);
-  transition: ease 0.4s;
+}
+
+.activities {
+  margin: 2em;
+
+  min-width: 1000px;
+  min-height: 400px;
+
+  display: flex;
+  justify-content: center;
+}
+
+.activity {
+  margin: 8px;
+  min-width: 300px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  
+}
+
+.activity_card {
+  box-sizing: border-box;
+  flex: 1 0 auto;
+  margin-bottom: 16px;
+  background: white;
+  border-radius: 10px;
+  line-height: 20px;
+  box-shadow: 0 0 10px 0px #aaaaaa;
+  display: flex;
+  flex-direction: column;
+}
+
+.activity_card > .card_image-big {
+  width: 300px;
+  height: 100%;
+  background-size: 100% 100%;
+  border-radius: 10px;
+}
+
+.card_image-big img {
+  width: 500px;
+  height: 100%;
+  border-radius: 10px 10px 0 0;
+  background-size: 100% 100%;
+  object-fit: cover;
+}
+
+.activity_card > .card_image {
+  width: 100%;
+  height: 100%;
+  background-size: 100% 100%;
+  border-radius: 10px;
+  max-height: 250px;
+}
+
+.card_image img {
+  width: 300px;
+  height: 100%;
+  border-radius: 10px 10px 0 0;
+  background-size: 100% 100%;
+  object-fit: cover;
+}
+
+.card_text {
+  margin: 8px
+}
+
+.bloctext.footer {
+  margin: 0 16px 16px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.footerelements {
+  display: flex;
+  flex-direction: column;
+}
+
+.footerelements a {
+  margin-bottom: 8px;
 }

@@ -10,7 +10,7 @@
 }
 
 .navbar_item:hover {
-    color : var(--primary-color)
+    color : var(--primary)
 }
 
 .navbar_end {
