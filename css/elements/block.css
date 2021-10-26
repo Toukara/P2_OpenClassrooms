@@ -42,6 +42,7 @@
   justify-content: space-between;
   line-height: 18px;
   box-shadow: 0 0 10px 0px #aaaaaa;
+  width: 100%;
 }
 
 .mostpopular > .mostpopular_image {
@@ -73,15 +74,7 @@
   transform: scale(1.05);
 }
 
-.activities {
-  margin: 2em;
 
-  min-width: 1000px;
-  min-height: 400px;
-
-  display: flex;
-  justify-content: center;
-}
 
 .activity {
   margin: 8px;
@@ -122,22 +115,23 @@
 
 .activity_card > .card_image {
   width: 100%;
-  height: 100%;
+  height: 150px;
   background-size: 100% 100%;
   border-radius: 10px;
-  max-height: 250px;
+  max-height: 150px;
 }
 
 .card_image img {
   width: 300px;
-  height: 100%;
+  height: 150px;
   border-radius: 10px 10px 0 0;
   background-size: 100% 100%;
   object-fit: cover;
 }
 
 .card_text {
-  margin: 8px
+  margin: 8px;
+  padding: 8px
 }
 
 .bloctext.footer {
@@ -153,4 +147,10 @@
 
 .footerelements a {
   margin-bottom: 8px;
+}
+
+
+.activity_card:hover {
+  cursor: pointer;
+  transform: scale(1.05);
 }

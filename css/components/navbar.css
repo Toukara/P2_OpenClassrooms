@@ -3,10 +3,12 @@
   flex-direction: row;
 }
 
+.navbar_burger {
+  width: 150px;
+}
+
 .navbar_item {
   padding: 0.5rem 0.75rem;
-  flex-grow: 0;
-  flex-shrink: 0;
 }
 
 .navbar_item:hover {
@@ -14,9 +16,17 @@
 }
 
 .navbar_end {
+  display: flex;
   justify-content: flex-end;
   margin-left: auto;
   margin-top: 25px;
   margin-right: 32px;
   font-size: 16px;
 }
+
+.navbar_end a:hover {
+  border-top: 2px solid var(--primary);
+  padding-top: 18px;
+}
+
+
