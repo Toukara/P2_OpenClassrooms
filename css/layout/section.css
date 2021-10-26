@@ -37,31 +37,3 @@
   justify-content: center;
 }
 
-@media screen and (max-width: 768px) {
-  .hotels {
-    width: 100%;
-  }
-  .mostpopulars {
-    order: -1;
-    background-color: var(--grey);
-    min-width: 100%;
-    border-radius: 20px;
-    padding: 10px;
-  }
-
-  .mostpopulars_content {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-
-  .activities {
-    margin: 16px;
-    flex-direction: column;
-    min-width: 100px;
-  }
-
-  .activities img {
-    width: 100%;
-  }
-}

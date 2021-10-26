@@ -18,6 +18,12 @@
 @import url("./css/layout/section.css");
 @import url("./css/layout/footer.css");
 
+/* Responsive breakpoints imports*/
+
+  @import url("./css/breakpoints/tablet.css");
+  @import url("./css/breakpoints/phone.css");
+
+
 html {
   font-family: "Raleway", sans-serif;
 }
