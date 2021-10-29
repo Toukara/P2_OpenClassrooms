@@ -1,31 +1,33 @@
 @media screen and (min-width: 768px) and (max-width: 992px) {
-  .container {
-    max-width: 768px;
-  }
 
   .container {
-    margin: 16px;
+    margin: auto auto;
+    max-width: 740px;
   }
 
-  main {
-    font-size: 16px;
-  }
 
   .navbar {
-    display: flex;
-    align-content: center;
-  }
-
-  .navbar_end {
-    margin-top: 20px;
-  }
-
-  .navbar_item {
-    padding: 8px 12px;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin: 0 50% 16px auto;
   }
 
   .navbar_burger {
-    width: 125px;
+    display: inline-block;
+    text-align: center;
+    width: 150px;
+  }
+
+  .navbar_end {
+    border-bottom: 2px solid var(--grey);
+
+    justify-content: space-evenly;
+  }
+  .navbar_end a:hover {
+    border-bottom: 2px solid var(--primary);
+    border-top: none;
+    padding: 0;
   }
 
   .title {
@@ -47,6 +49,12 @@
 
   .filter {
     align-self: flex-end;
+  }
+
+  .filters_elements {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
   }
 
   .container.accommodation {

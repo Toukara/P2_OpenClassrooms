@@ -1,7 +1,8 @@
 @media screen and (max-width: 767px) {
- 
+
   .container {
-    max-width: 767px;
+    margin: auto auto;
+    max-width: 650px;
   }
 
   main {
@@ -12,27 +13,13 @@
     display: inline-block;
     text-align: center;
     width: 100%;
-    margin-left: auto;
-    margin-right: 50%;
+    margin: 0 50% 16px auto;
   }
 
   .navbar_burger {
     display: inline-block;
     text-align: center;
     width: 150px;
-  }
-
-  .title {
-    font-size: 24px;
-    width: 100%;
-    margin-bottom: 8px;
-    white-space: normal;
-  }
-
-  .subtitle {
-    font-size: 18px;
-    white-space: normal;
-    width: 80%;
   }
 
   .navbar_end {
@@ -44,6 +31,19 @@
     border-bottom: 2px solid var(--primary);
     border-top: none;
     padding: 0;
+  }
+
+  .title {
+    font-size: 18px;
+    width: 80%;
+    margin-bottom: 8px;
+    white-space: normal;
+  }
+
+  .subtitle {
+    font-size: 18px;
+    white-space: normal;
+    width: 80%;
   }
 
   .input-logo,
@@ -63,6 +63,13 @@
 
   .search i {
     display: block;
+  }
+  
+  .filters_elements {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 8px;
   }
 
   .filters h3 {
