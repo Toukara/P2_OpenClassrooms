@@ -1,12 +1,16 @@
-@media screen and (max-width: 767px) {
-
+@media screen and (max-width: 992px) {
   .container {
-    margin: auto auto;
-    max-width: 650px;
+    max-width: 992px;
+  }
+
+  html,
+  body {
+    overflow-x: hidden;
+    width: 100%;
   }
 
   main {
-    margin: 16px;
+    margin: 32px;
   }
 
   .navbar {
@@ -33,52 +37,54 @@
     padding: 0;
   }
 
+  .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+  }
+
   .title {
-    font-size: 18px;
-    width: 80%;
-    margin-bottom: 8px;
+    font-size: 32px;
     white-space: normal;
+    width: 100%;
   }
 
   .subtitle {
-    font-size: 18px;
+    font-size: 26px;
     white-space: normal;
-    width: 80%;
-  }
-
-  .input-logo,
-  .search {
-    padding-right: 16px;
-    padding-left: 16px;
-    font-size: 20px;
+    width: 100%;
   }
 
   .input-field {
-    width: 60%;
+    width: 100%;
   }
 
-  .search span {
-    display: none;
+  .form_input {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
   }
 
-  .search i {
-    display: block;
+  .filters h3 {
+    font-size: 24px;
   }
-  
+
+  .filter {
+    align-self: flex-end;
+  }
+
   .filters_elements {
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
     gap: 8px;
   }
 
-  .filters h3 {
-    font-size: 22px;
-    width: 100%;
-  }
-
-  .filter {
-    margin: 4px;
+  .container.accommodation {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
   }
 
   .infocity {
@@ -87,12 +93,6 @@
 
   .filter_name {
     font-size: 16px;
-  }
-
-  .container.accommodation {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
   }
 
   .mostpopular {
@@ -131,16 +131,6 @@
   .hotels {
     width: 100%;
   }
-
-  .hotel {
-    padding: 5px;
-    flex: 1 0 auto;
-    background-color: white;
-    border-radius: 10px;
-    line-height: 20px;
-    box-shadow: 0 0 10px 0px #aaaaaa;
-  }
-
   .mostpopulars {
     order: -1;
     background-color: var(--grey);
