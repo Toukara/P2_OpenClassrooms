@@ -28,6 +28,9 @@ html {
   font-family: "Raleway", sans-serif;
 }
 
+main {
+  margin: 16px;
+}
 :root {
   --primary: #0065fc;
   --secondary: #deebff;
