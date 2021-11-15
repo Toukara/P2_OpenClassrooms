@@ -3,7 +3,7 @@ Projet 2 du parcours Développeur Web d'Openclassrooms. "Transformez une maquett
 
 ![Booki](https://i.imgur.com/qzRaf8a.png)
 
-# IDE & Langages
+# EDI & Languages.
 <p align="center"> 
     <img src="https://img.shields.io/badge/-VSCode-black?style=for-the-badge&logo=Visual-studio-code">
     <img src="https://img.shields.io/badge/-HTML5-black?style=for-the-badge&logo=html5&logoColor=white">
