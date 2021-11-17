@@ -20,14 +20,17 @@
 
 /* Responsive breakpoints imports*/
 
-  @import url("./css/breakpoints/tablet.css");
-  @import url("./css/breakpoints/phone.css");
+@import url("./css/breakpoints/tablet.css");
+@import url("./css/breakpoints/phone.css");
 
 
 html {
   font-family: "Raleway", sans-serif;
 }
 
+main {
+  margin: 16px;
+}
 :root {
   --primary: #0065fc;
   --secondary: #deebff;

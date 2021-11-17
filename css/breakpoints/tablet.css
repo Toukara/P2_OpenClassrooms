@@ -1,10 +1,17 @@
-@media screen and (min-width: 768px) and (max-width: 992px) {
-
+@media screen and (max-width: 992px) {
   .container {
-    margin: auto auto;
-    max-width: 740px;
+    max-width: 992px;
   }
 
+  html,
+  body {
+    overflow-x: hidden;
+    width: 100%;
+  }
+
+  main {
+    margin: 32px;
+  }
 
   .navbar {
     display: inline-block;
@@ -30,17 +37,34 @@
     padding: 0;
   }
 
+  .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+  }
+
   .title {
-    font-size: 18px;
-    width: 40%;
-    margin-bottom: 8px;
+    font-size: 32px;
     white-space: normal;
+    width: 100%;
   }
 
   .subtitle {
-    font-size: 14px;
+    font-size: 26px;
     white-space: normal;
-    width: 35%;
+    width: 100%;
+  }
+
+  .input-field {
+    width: 100%;
+  }
+
+  .form_input {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
   }
 
   .filters h3 {

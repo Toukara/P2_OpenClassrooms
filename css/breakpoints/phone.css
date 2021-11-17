@@ -1,8 +1,12 @@
-@media screen and (max-width: 768px) {
-
+@media screen and (max-width: 768px ) {
   .container {
-    margin: auto auto;
-    max-width: 650px;
+    max-width: 768px;
+  }
+
+  html,
+  body {
+    overflow-x: hidden;
+    width: 100%;
   }
 
   main {
@@ -24,7 +28,6 @@
 
   .navbar_end {
     border-bottom: 2px solid var(--grey);
-
     justify-content: space-evenly;
   }
   .navbar_end a:hover {
@@ -33,17 +36,23 @@
     padding: 0;
   }
 
+  .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+  }
+
   .title {
-    font-size: 18px;
-    width: 80%;
-    margin-bottom: 8px;
+    font-size: 24px;
     white-space: normal;
+    width: 90%;
   }
 
   .subtitle {
     font-size: 18px;
     white-space: normal;
-    width: 80%;
+    width: 90%;
   }
 
   .input-logo,
@@ -54,7 +63,14 @@
   }
 
   .input-field {
-    width: 60%;
+    width: 100%;
+  }
+
+  .form_input {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
   }
 
   .search span {
@@ -64,10 +80,9 @@
   .search i {
     display: block;
   }
-  
+
   .filters_elements {
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
     gap: 8px;
   }
@@ -81,8 +96,12 @@
     margin: 4px;
   }
 
+  .info {
+    margin: 16px;
+  }
+
   .infocity {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .filter_name {
@@ -130,15 +149,25 @@
 
   .hotels {
     width: 100%;
+    margin-bottom: 16px;
   }
 
   .hotel {
     padding: 5px;
-    flex: 1 0 auto;
+    flex: 1 1 auto;
     background-color: white;
     border-radius: 10px;
     line-height: 20px;
     box-shadow: 0 0 10px 0px #aaaaaa;
+    width: 100%;
+
+  }
+
+  .hotel_content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
   }
 
   .mostpopulars {
