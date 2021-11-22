@@ -12,7 +12,7 @@
 .hotel {
   padding: 5px;
   flex: 1 0 30%;
-  background-color: var(--white);;
+  background-color: var(--white);
   border-radius: 10px;
   line-height: 20px;
   box-shadow: 0 0 10px 0px #aaaaaa;
@@ -79,16 +79,12 @@
   transform: scale(1.05);
 }
 
-
-
 .activity {
   margin: 8px;
   min-width: 300px;
-
   display: flex;
   flex-direction: column;
   gap: 8px;
-  
 }
 
 .activity_card {
@@ -126,6 +122,8 @@
   max-height: 150px;
 }
 
+
+
 .card_image img {
   width: 300px;
   height: 150px;
@@ -136,7 +134,12 @@
 
 .card_text {
   margin: 8px;
-  padding: 8px
+  padding: 8px;
+}
+
+.activity_card:hover {
+  cursor: pointer;
+  transform: scale(1.05);
 }
 
 .bloctext.footer {
@@ -145,17 +148,13 @@
   line-height: 24px;
 }
 
-.footerelements {
+.footer_elements {
   display: flex;
   flex-direction: column;
 }
 
-.footerelements a {
+.footer_elements a {
   margin-bottom: 8px;
 }
 
 
-.activity_card:hover {
-  cursor: pointer;
-  transform: scale(1.05);
-}
