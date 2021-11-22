@@ -1,15 +1,11 @@
 .btn.is-primary {
-  color: white;
+  color: var(--white);
   background-color: var(--primary);
 }
 
 .btn.is-primary:hover {
-  color: white;
+  color: var(--white);
   background-color: #1571fa;
-}
-
-.btn.is-secondary {
-  background-color: #deebff;
 }
 
 .btn.search {

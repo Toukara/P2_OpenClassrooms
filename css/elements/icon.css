@@ -13,7 +13,7 @@
 }
 
 .icon:hover {
-  background-color: white;
+  background-color: var(--white);
 }
 /* info icon */
 .icon_info {

@@ -12,7 +12,7 @@
 .hotel {
   padding: 5px;
   flex: 1 0 30%;
-  background-color: white;
+  background-color: var(--white);;
   border-radius: 10px;
   line-height: 20px;
   box-shadow: 0 0 10px 0px #aaaaaa;
@@ -40,7 +40,7 @@
 
 .mostpopular {
   padding: 5px;
-  background-color: white;
+  background-color: var(--white);
   border-radius: 10px;
   display: flex;
   flex-direction: row;
@@ -95,7 +95,7 @@
   box-sizing: border-box;
   flex: 1 0 auto;
   margin-bottom: 16px;
-  background: white;
+  background-color: var(--white);
   border-radius: 10px;
   line-height: 20px;
   box-shadow: 0 0 10px 0px #aaaaaa;

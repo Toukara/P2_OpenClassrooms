@@ -155,7 +155,7 @@
   .hotel {
     padding: 5px;
     flex: 1 1 auto;
-    background-color: white;
+    background-color: var(--white);
     border-radius: 10px;
     line-height: 20px;
     box-shadow: 0 0 10px 0px #aaaaaa;
@@ -168,6 +168,10 @@
     flex-direction: column;
     flex-wrap: nowrap;
 
+  }
+
+  .stars {
+    margin-top: 0%;
   }
 
   .mostpopulars {
