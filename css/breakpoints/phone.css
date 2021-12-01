@@ -1,8 +1,4 @@
-@media screen and (max-width: 768px ) {
-  .container {
-    max-width: 768px;
-  }
-
+@media screen and (max-width: 768px) {
   html,
   body {
     overflow-x: hidden;
@@ -11,6 +7,12 @@
 
   main {
     margin: 16px;
+  }
+
+  .container {
+    max-width: 768px;
+    padding-right: 0px;
+    padding-left: 0px;
   }
 
   .navbar {
@@ -160,14 +162,12 @@
     line-height: 20px;
     box-shadow: 0 0 10px 0px #aaaaaa;
     width: 100%;
-
   }
 
   .hotel_content {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-
   }
 
   .stars {
