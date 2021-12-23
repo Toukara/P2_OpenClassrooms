@@ -1,5 +1,5 @@
 # Booki.
-Projet 2 du parcours Développeur Web d'Openclassrooms. "Transformez une maquette en site web avec HTML & CSS" (version avant 29-09-21)
+PROJET 2 : "Transformez une maquette en site web avec HTML & CSS" (version avant 29-09-21)
 
 ![Booki](https://i.imgur.com/qzRaf8a.png)
 
